@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.dark-mode-btn {
+  position: fixed;
+  top: 120px; /* Position below the fullscreen and refresh buttons */
+  right: 20px;
+  z-index: 999;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #4CAF50;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dark-mode-btn:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #ccc;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode .tabs {
+    background-color: #222;
+}
+
+.dark-mode .tab {
+    background-color: #444;
+    border-color: #666;
+}
+
+.dark-mode .tab-content {
+    background-color: #333;
+}
+
+.dark-mode .fullscreen-btn, 
+.dark-mode .refresh-btn, 
+.dark-mode .dark-mode-btn {
+    color: #45a049;
+}
